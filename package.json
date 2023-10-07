@@ -1,0 +1,30 @@
+{
+  "name": "rollup-plugin-import-map",
+  "version": "0.1.0",
+  "description": "Rollup plugin to generate a browser import map",
+  "type": "module",
+  "scripts": {
+    "rollup": "rollup -c"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/timburgess/rollup-plugin-import-map.git"
+  },
+  "keywords": [
+    "rollup-plugin",
+    "plugin",
+    "import",
+    "map"
+  ],
+  "author": "Tim Burgess <silkier-strain.0o@icloud.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/timburgess/rollup-plugin-manifest-json/issues"
+  },
+  "homepage": "https://github.com/timburgess/rollup-plugin-manifest-json#readme",
+  "devDependencies": {
+    "@babel/core": "^7.18.13",
+    "@babel/preset-env": "^7.18.10",
+    "rollup": "4.0.2"
+  }
+}
